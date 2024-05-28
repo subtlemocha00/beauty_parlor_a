@@ -28,8 +28,7 @@
 	<nav class="navbar navbar-expand-md navbar-light">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="#">
-				<img src="./assets/images/hair_logo_a.png" alt="Logo" height="50" width="300"
-					class="d-inline-block align-text-top">
+				<img src="./assets/images/logo_a.png" alt="Logo" width="200" class="d-inline-block align-text-top">
 			</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
 				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,7 +46,7 @@
 						<a class="nav-link" href="#">Products</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link btn btn-primary" href="#">Book Appointment</a>
+						<a class="nav-link btn btn-info" href="#">Book Appointment</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="https://www.facebook.com/yourbusiness" target="_blank">
@@ -58,20 +57,20 @@
 			</div>
 		</div>
 	</nav>
-	<div class="border border-1">
-		<h1>Lifestyles Beauty Bar</h1>
-	</div>
-	<section class="carouselCont border border-3 d-flex flex-column">
-		<div id="carouselHome" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
+	<section id="hero">
+		<div class="bg-a">
+			<h1 class="fw-bold ms-5">Lifestyles Beauty Bar</h1>
+		</div>
+		<div id="carouselHome" class="carousel slide customCarousel" data-bs-ride="carousel" data-bs-touch="true">
 			<div class="carousel-indicators">
 				<button type="button" data-bs-target="#carouselHome" data-bs-slide-to="0" class="active"
 					aria-current="true" aria-label="Slide 1"></button>
 				<button type="button" data-bs-target="#carouselHome" data-bs-slide-to="1" aria-label="Slide 2"></button>
 				<button type="button" data-bs-target="#carouselHome" data-bs-slide-to="2" aria-label="Slide 3"></button>
 			</div>
-			<div class="carousel-inner">
+			<div class="carousel-inner customCarousel">
 				<div class="carousel-item active">
-					<img src="./assets/images/spa_treatment_a.png" class="d-block w-100" alt="...">
+					<img src="./assets/images/hair_dye_b.png" class="d-block" alt="...">
 				</div>
 				<div class="carousel-item">
 					<img src="./assets/images/nail_jelly_a.png" class="d-block w-100" alt="...">
@@ -88,6 +87,74 @@
 				<span class="carousel-control-next-icon" aria-hidden="true"></span>
 				<span class="visually-hidden">Next</span>
 			</button>
+		</div>
+	</section>
+	<section id="services" class="d-flex justify-content-center py-5">
+
+		<div class="container row justify-content-around mw-100 g-3">
+			<div class="col-12 col-sm-6 col-md-4 card p-0">
+				<img src="./assets/images/hair_dye_b.png" alt="..." class="card-img-top service-card">
+				<div class="card-body">
+					<div class="card-title fw-bold">Hair Colouring</div>
+					<div class="card-text">Hair colouring adds vibrancy and dimension to your look. Whether you want a
+						subtle change or a bold new color, our skilled colorists provide personalized services to
+						achieve your desired shade.</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 card p-0">
+				<img src="./assets/images/haircut_a.png" alt="..." class="card-img-top service-card">
+				<div class="card-body">
+					<div class="card-title fw-bold">Hair Styling</div>
+					<div class="card-text">Hair styling reflects your personality and enhances your look. Whether you're
+						seeking a new style or maintaining your current look, our expert stylists are here to help.
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 card p-0">
+				<img src="./assets/images/spa_treatment_a.png" alt="..." class="card-img-top service-card">
+				<div class="card-body">
+					<div class="card-title fw-bold">Skin Treatment</div>
+					<div class="card-text">Skin treatments rejuvenate and refresh your complexion. Our range of
+						treatments, from facials to peels, are designed to address your specific skin concerns and leave
+						you glowing.</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 card p-0">
+				<img src="./assets/images/nail_jelly_a.png" alt="..." class="card-img-top service-card">
+				<div class="card-body">
+					<div class="card-title fw-bold">Manicures and Pedicures</div>
+					<div class="card-text">Manicures and pedicures enhance the beauty and health of your nails. Our
+						expert technicians provide detailed care, ensuring your hands and feet look and feel their best.
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 card p-0">
+				<img src="./assets/images/spa_treatment_a.png" alt="..." class="card-img-top service-card">
+				<div class="card-body">
+					<div class="card-title fw-bold">Wax Treatments</div>
+					<div class="card-text">Wax treatments offer smooth, hair-free skin. Our experienced estheticians use
+						high-quality products to provide effective and comfortable waxing services for all areas of the
+						body.</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 card p-0">
+				<img src="./assets/images/eyelashes_a.png" alt="..." class="card-img-top service-card">
+				<div class="card-body">
+					<div class="card-title fw-bold">Lash Extensions</div>
+					<div class="card-text">Lash extensions create fuller, longer lashes. Our lash artists meticulously
+						apply extensions to enhance your natural beauty, giving you a glamorous and effortless look.
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 card p-0">
+				<img src="./assets/images/eyebrows_a.png" alt="..." class="card-img-top service-card">
+				<div class="card-body">
+					<div class="card-title fw-bold">Eyebrow Treatments</div>
+					<div class="card-text">Eyebrow treatments define and shape your brows. From tinting to microblading,
+						our specialists tailor each service to complement your facial features and enhance your natural
+						expression.</div>
+				</div>
+			</div>
 		</div>
 	</section>
 	<footer class="text-center py-3">
