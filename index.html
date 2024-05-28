@@ -1,41 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>COMPANY NAME | HOME</title>
-		<!-- <link rel="preload" as="image" href="./assets/images/landingBackground.webp" /> -->
-		<!-- <link rel="icon" href="./assets/icons/logo_fav.svg" type="image/x-icon" /> -->
-		<link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
-		<link rel="stylesheet" href="./assets/css/index.css" />
-		<link rel="stylesheet" href="./assets/css/indexDark.css" />
-	</head>
-	<!-- Google tag (gtag.js) -->
-	<script
-		async
-		src="https://www.googletagmanager.com/gtag/js?id=G-T6YJZ8V19N"
-	></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() {
-			dataLayer.push(arguments);
-		}
-		gtag("js", new Date());
 
-		gtag("config", "G-T6YJZ8V19N");
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>COMPANY NAME | HOME</title>
+	<!-- <link rel="preload" as="image" href="./assets/images/landingBackground.webp" /> -->
+	<!-- <link rel="icon" href="./assets/icons/logo_fav.svg" type="image/x-icon" /> -->
+	<link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="./assets/css/index.css" />
+	<!-- <link rel="stylesheet" href="./assets/css/indexDark.css" /> -->
+	<script src="https://kit.fontawesome.com/56b718db2c.js" crossorigin="anonymous"></script>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T6YJZ8V19N"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+	gtag("js", new Date());
+
+	gtag("config", "G-T6YJZ8V19N");
+</script>
+
+<body>
+	<nav class="navbar navbar-expand-md navbar-light">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">
+				<img src="./assets/images/hair_logo_a.png" alt="Logo" height="50" width="300"
+					class="d-inline-block align-text-top">
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Services</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Products</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link btn btn-primary" href="#">Book Appointment</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.facebook.com/yourbusiness" target="_blank">
+							<i class="fab fa-facebook"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="border border-1">
+		<h1>Lifestyles Beauty Bar</h1>
+	</div>
+	<section class="carouselCont border border-3 d-flex flex-column">
+		<div id="carouselHome" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselHome" data-bs-slide-to="0" class="active"
+					aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselHome" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselHome" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="./assets/images/spa_treatment_a.png" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="./assets/images/nail_jelly_a.png" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="./assets/images/moisturizer_b.png" class="d-block w-100" alt="...">
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselHome" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselHome" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	</section>
+	<footer class="text-center py-3">
+		<div class="container">
+			<p>© <span id="currentYear"></span> Liquid the Beauty Bar | Designed by
+				<a href="https://subtlewebstudios.com" target="_blank">Subtle Web Studios</a>
+			</p>
+		</div>
+	</footer>
+	<!-- JS Files -->
+	<script src="./assets/js/bootstrap.bundle.min.js" crossorigin="anonymous" defer async></script>
+	<script src="./assets/js/darkMode.js" crossorigin="anonymous" defer></script>
+	<script>
+		document.getElementById("currentYear").textContent = new Date().getFullYear();
 	</script>
-	<body>
-		<!-- JS Files -->
-		<script
-			src="./assets/js/bootstrap.min.js"
-			crossorigin="anonymous"
-			defer
-			async
-		></script>
-		<script
-			src="./assets/js/darkMode.js"
-			crossorigin="anonymous"
-			defer
-		></script>
-	</body>
+</body>
+
 </html>
