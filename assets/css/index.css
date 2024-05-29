@@ -57,11 +57,39 @@ h6 {
 	isolation: isolate;
 }
 
-
-.carouselCont {
-    /* min-height: 100svh; */
+.customCarousel {
+    height: 40vh;
 }
 
-.carousel {
-    min-height: 10vh;
+.carousel-inner {
+	height: 100%;
+}
+
+.carousel-item {
+	height: 100%;
+}
+
+.carousel-item img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.service-card {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+@media (min-width: 576px) {
+	.customCarousel {
+		height: 50vh;
+	}
+	
+}
+@media (min-width: 992px) {
+	.customCarousel {
+		height: 75vh;
+	}
+	
 }
