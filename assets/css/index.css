@@ -82,12 +82,11 @@ h6 {
 	object-fit: cover;
 }
 
-.service-card {
+.img-fit {
 	/* height: 100%; */
 	width: 100%;
 	object-fit: cover;
 }
-
 
 @media (min-width: 576px) {
 	.customCarousel {
