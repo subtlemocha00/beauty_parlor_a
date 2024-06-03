@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LIFESTYLES BEAUTY BAR</title>
+    <!-- <link rel="preload" as="image" href="./assets/images/landingBackground.webp" /> -->
+    <!-- <link rel="icon" href="./assets/icons/logo_fav.svg" type="image/x-icon" /> -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <!-- <link rel="stylesheet" href="./assets/css/indexDark.css" /> -->
+    <script src="https://kit.fontawesome.com/56b718db2c.js" crossorigin="anonymous"></script>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T6YJZ8V19N"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-T6YJZ8V19N");
+</script>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./assets/images/logo_a.png" alt="Logo" width="200" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="./index.html#services">Services</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="./index.html#products">Products</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item ms-0">
+                        <a class="nav-link btn bg-a text-c" href="#bookApt">Book Appointment</a>
+                    </li>
+                    <div class="d-flex">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.facebook.com/yourbusiness" target="_blank">
+                                <i class="fab fa-facebook" style="color: #1877F2; font-size: 30px;"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.instagram.com/yourbusiness" target="_blank">
+                                <i class="fab fa-instagram" style="font-size: 30px;"></i>
+                            </a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header id="hero">
+        <div class="bg-a">
+            <h1 class="fw-bold text-c p-4 m-0">Lifestyles Beauty Bar</h1>
+        </div>
+        <img class="img-fluid" src="./assets/images/spa_wide.png" alt="...">
+    </header>
+    <section id="bookApt" class="d-flex flex-column align-items-center w-100 px-0">
+        <div class="bg-a w-100 text-center">
+            <h2 class="fw-bold p-4 m-0 text-c">Contact Us</h2>
+        </div>
+        <span class="my-1" style="width: 100%; height: 4px; background-color: #8cdcda;"></span>
+        <span class="mb-1" style="width: 100%; height: 3px; background-color: #8cdcda;"></span>
+        <span class="mb-1" style="width: 100%; height: 2px; background-color: #8cdcda;"></span>
+        <span class="mb-5" style="width: 100%; height: 1px; background-color: #8cdcda;"></span>
+        <div class="container m-md-3 my-5 rounded-3 px-0">
+            <div class="card p-3 shadow-lg bg-a mb-3">
+                <div class="card-body">
+                    <h2 class="">Book Your Appointment</h2>
+                    <p class="lead">Easily schedule your next visit with us online! Book now and we'll
+                        follow up as soon as possible to confirm your slot.</p>
+                    <form action="" method="">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name:</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name"
+                                autocomplete="name" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email"
+                                autocomplete="email" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="appointmentDate" class="form-label">Preferred Date:</label>
+                            <input type="date" class="form-control" id="appointmentDate" />
+                        </div>
+                        <button type="submit" class="btn btn-lg btn-light mt-4">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <p class="lead container">Prefer to talk? Call us at <b><a class="text-b" href="tel:+5555946475">(555)
+                    594-6475</a></b>
+        </p>
+    </section>
+    <section id="contact" class="d-flex flex-column align-items-center w-100 px-0 mt-5 bg-a pb-5">
+        <div class="container m-md-3 my-5 rounded-3 px-0">
+            <div class="card p-3 shadow-lg bg-light mt-5">
+                <div class="card-body">
+                    <h2 class="">Get In Touch</h2>
+                    <p class="lead">Have questions? Reach out to us anytime!</p>
+                    <form action="" method="">
+                        <div class="row form-floating mb-3">
+                            <input id="full-name" name="full-name" class="form-control input-border" type="text"
+                                placeholder="Full Name" required>
+                            <label class="form-label" for="full-name">Full Name*</label>
+                        </div>
+                        <div class="row form-floating mb-3">
+                            <input id="email" name="email" class="form-control input-border" type="email"
+                                placeholder="Email" required>
+                            <label class="form-label" for="email">Email*</label>
+                        </div>
+                        <div class="row form-floating mb-3">
+                            <input id="subject" name="subject" class="form-control input-border" type="text"
+                                placeholder="Subject" required>
+                            <label class="form-label" for="subject">Subject*</label>
+                        </div>
+                        <div class="row form-floating mb-3">
+                            <textarea id="message" name="message" class="form-control input-border"
+                                style="height: 150px;" type="text" placeholder="Message..." required></textarea>
+                            <label class="form-label" for="message">Message*</label>
+                        </div>
+                        <button class="btn btn-lg bg-a mt-4">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center my-3">
+        <div class="container">
+            <img src="./assets/images/logo_a.png" alt="">
+            <p>© <span id="currentYear"></span> Lifestyles Beauty Parlor | Designed by
+                <a href="https://subtlewebstudios.com" target="_blank">Subtle Web Studios</a>
+            </p>
+        </div>
+    </footer>
+    <!-- JS Files -->
+    <script src="./assets/js/bootstrap.bundle.min.js" crossorigin="anonymous" defer async></script>
+    <script src="./assets/js/darkMode.js" crossorigin="anonymous" defer></script>
+    <script>
+        document.getElementById("currentYear").textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
