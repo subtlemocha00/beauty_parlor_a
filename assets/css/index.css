@@ -67,19 +67,25 @@ h6 {
 .bg-b {
 	background-color: var(--main-b);
 }
+.border-b {
+	border: 2px solid var(--main-b);
+}
 .text-b {
 	color: var(--main-b);
 }
-
+	
 .bg-c {
 	background-color: var(--main-c);
 }
 .text-c {
 	color: var(--main-c);
 }
-
+			
 .bg-d {
 	background-color: var(--main-d);
+}
+.border-d {
+	border: 2px solid var(--main-d);
 }
 .text-d {
 	color: var(--main-d);
