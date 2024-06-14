@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LIFESTYLES BEAUTY BAR</title>
+    <title>LIFESTYLES BEAUTY BAR | SERVICES</title>
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/css/index.css" />
     <script src="https://kit.fontawesome.com/56b718db2c.js" crossorigin="anonymous"></script>
@@ -37,10 +37,10 @@
                         <a class="nav-link" href="./index.html">Home</a>
                     </li>
                     <li class="nav-item px-1">
-                        <a class="nav-link" href="./services.html">Services</a>
+                        <a class="nav-link" href="#services">Services</a>
                     </li>
                     <li class="nav-item px-1">
-                        <a class="nav-link" href="#products">Products</a>
+                        <a class="nav-link" href="./products.html">Products</a>
                     </li>
                     <li class="nav-item px-1">
                         <a class="nav-link" href="./contact.html">Contact</a>
@@ -64,38 +64,12 @@
             </div>
         </div>
     </nav>
-    <section id="hero">
+    <header id="hero">
         <div class="bg-a">
             <h1 class="fw-bold text-c p-4 m-0">Lifestyles Beauty Bar</h1>
         </div>
-        <div id="carouselHome" class="carousel slide customCarousel" data-bs-ride="carousel" data-bs-touch="true">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselHome" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselHome" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselHome" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner customCarousel">
-                <div class="carousel-item active">
-                    <img src="./assets/images/hair_dye_b.png" class="d-block" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./assets/images/nail_jelly_a.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./assets/images/moisturizer_b.png" class="d-block w-100" alt="...">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselHome" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselHome" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </section>
+        <img class="img-fluid" src="./assets/images/spa_towels_wide.png" alt="...">
+    </header>
     <section id="about" class="d-flex flex-column pb-5">
         <div class="bg-a w-100 text-center">
             <h2 class="fw-bold p-4 m-0 text-c">About</h2>
@@ -139,7 +113,7 @@
             </p>
         </article>
     </section>
-    <section id="services" class="d-flex flex-column justify-content-center align-items-center pb-5">
+    <!-- <section id="services" class="d-flex flex-column justify-content-center align-items-center pb-5 bg-a-faded">
         <div class="bg-a w-100 text-center">
             <h2 class="fw-bold p-4 m-0 text-c">Services</h2>
         </div>
@@ -147,86 +121,324 @@
         <span class="mb-1" style="width: 100%; height: 3px; background-color: #8cdcda;"></span>
         <span class="mb-1" style="width: 100%; height: 2px; background-color: #8cdcda;"></span>
         <span class="mb-5" style="width: 100%; height: 1px; background-color: #8cdcda;"></span>
-        <ul class="container-fluid row justify-content-around text-center">
-            <li class="col-12 col-sm-5 col-md-4 card border-0 p-0 m-1 m-md-0 bg-transparent">
-                <img src=" ./assets/images/haircut_a.png" alt="..." class="card-img-top img-fit" height="230">
-                <div class="card-body">
-                    <div class="card-title fw-bold">Hair Styling</div>
-                    <p class="card-text">Hair styling reflects your personality and enhances your look. Whether
-                        you're
-                        seeking a new style or maintaining your current look, our expert stylists are here to help.
-                    </p>
+        <ul class="container-fluid justify-content-around text-center">
+            <div class="card mb-5 rounded-0 border-a p-2">
+                <div class="row g-0">
+                    <div class="col-md-5">
+                        <img src=" ./assets/images/haircut_a.png" alt="..." class="img-fit" height="400">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="card-body">
+                            <h4 class="card-title">Hair Styling</h4>
+                            <p class="card-text">Hair styling reflects your personality and enhances your look. Whether
+                                you're seeking a new style or maintaining your current look, our expert stylists are
+                                here to help.
+                            </p>
+                            <ul class="list-group list-group-horizontal-lg d-flex flex-wrap">
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a">
+                                        <span>Hair Cut
+                                            [Men]</span> -
+                                        <span>$50</span>
+                                    </li>
+                                </div>
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Hair Cut
+                                            [Women]</span> -
+                                        <span>$70</span>
+                                    </li>
+                                </div>
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Wash and Blow Dry</span> -
+                                        <span>$55</span>
+                                    </li>
+                                </div>
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Beard Trim</span>
+                                        -
+                                        <span>$15</span>
+                                    </li>
+                                </div>
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Head Shave</span>
+                                        -
+                                        <span>$30</span>
+                                    </li>
+                                </div>
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Kids Cut</span>
+                                        -
+                                        <span>$30</span>
+                                    </li>
+                                </div>
+                            </ul>
+
+                        </div>
+                    </div>
                 </div>
-                <a href="./services.html" class="stretched-link"></a>
-            </li>
-            <li class="col-12 col-sm-5 col-md-4 card border-0 p-0 m-1 m-md-0 bg-transparent">
-                <img src="./assets/images/hair_dye_b.png" alt="..." class="card-img-top img-fit" height="230">
-                <div class="card-body">
-                    <div class="card-title fw-bold">Hair Colouring</div>
-                    <p class="card-text">Hair colouring adds vibrancy and dimension to your look. Whether you want a
-                        subtle change or a bold new color, our skilled colorists provide personalized services to
-                        achieve your desired shade.</p>
+            </div>
+            <div class="card mb-5 rounded-0 border-a p-2">
+                <div class="row g-0 align-items-center">
+                    <div class="col-md-5">
+                        <img src=" ./assets/images/hair_dye_b.png" alt="..." class="img-fit" height="400">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="card-body">
+                            <h4 class="card-title">Hair Colouring</h4>
+                            <p class="card-text">Transform your look with our vibrant hair colouring services. From
+                                subtle highlights to bold, full-colour changes, our colorists will create a stunning new
+                                you.
+                            </p>
+                            <ul class="list-group list-group-horizontal-lg d-flex flex-wrap">
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Full Colour</span> -
+                                        <span>$90</span>
+                                    </li>
+                                </div>
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Highlights</span> -
+                                        <span>$75</span>
+                                    </li>
+                                </div>
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Balayage</span>
+                                        -
+                                        <span>$120</span>
+                                    </li>
+                                </div>
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Root Touch-Up</span>
+                                        -
+                                        <span>$60</span>
+                                    </li>
+                                </div>
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Colour Correction</span>
+                                        -
+                                        <span>$150</span>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <a href="./services.html" class="stretched-link"></a>
-            </li>
-            <li class="col-12 col-sm-5 col-md-4 card border-0 p-0 m-1 m-md-0 bg-transparent">
-                <img src="./assets/images/spa_treatment_a.png" alt="..." class="card-img-top img-fit" height="230">
-                <div class="card-body">
-                    <div class="card-title fw-bold">Skin Treatment</div>
-                    <p class="card-text">Skin treatments rejuvenate and refresh your complexion. Our range of
-                        treatments, from facials to peels, are designed to address your specific skin concerns and
-                        leave
-                        you glowing.</p>
+            </div>
+            <div class="card mb-5 rounded-0 border-a p-2">
+                <div class="row g-0 align-items-center">
+                    <div class="col-md-5">
+                        <img src=" ./assets/images/facemask_a.png" alt="..." class="img-fit" height="400">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="card-body">
+                            <h4 class="card-title">Skin Treatment</h4>
+                            <p class="card-text">Achieve radiant and healthy skin with our customized treatments. Our
+                                services are designed to address various skin concerns, leaving you with a glowing
+                                complexion.
+                            </p>
+                            <ul class="list-group list-group-horizontal-lg d-flex flex-wrap">
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Facial</span> -
+                                        <span>$80</span>
+                                    </li>
+                                </div>
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Microdermabrasion</span> -
+                                        <span>$100</span>
+                                    </li>
+                                </div>
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Chemical Peel</span>
+                                        -
+                                        <span>$90</span>
+                                    </li>
+                                </div>
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Hydrating Mask</span>
+                                        -
+                                        <span>$50</span>
+                                    </li>
+                                </div>
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Acne Treatment</span>
+                                        -
+                                        <span>$85</span>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <a href="./services.html" class="stretched-link"></a>
-            </li>
-            <li class="col-12 col-sm-5 col-md-4 card border-0 p-0 m-1 m-md-0 bg-transparent">
-                <img src="./assets/images/nail_jelly_b.png" alt="..." class="card-img-top img-fit" height="230">
-                <div class="card-body">
-                    <div class="card-title fw-bold">Manicures and Pedicures</div>
-                    <p class="card-text">Manicures and pedicures enhance the beauty and health of your nails. Our
-                        expert technicians provide detailed care, ensuring your hands and feet look and feel their
-                        best.
-                    </p>
+            </div>
+            <div class="card mb-5 rounded-0 border-a p-2">
+                <div class="row g-0 align-items-center">
+                    <div class="col-md-5">
+                        <img src=" ./assets/images/nail_jelly_b.png" alt="..." class="img-fit" height="400">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="card-body">
+                            <h4 class="card-title">Manicures and Pedicures</h4>
+                            <p class="card-text">Pamper your hands and feet with our luxurious manicures and pedicures.
+                                Enjoy a relaxing experience while we take care of your nails and skin.
+                            </p>
+                            <ul class="list-group list-group-horizontal-lg d-flex flex-wrap">
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Classic Manicure</span> -
+                                        <span>$25</span>
+                                    </li>
+                                </div>
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Gel Manicure</span> -
+                                        <span>$35</span>
+                                    </li>
+                                </div>
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Classic Pedicure</span> -
+                                        <span>$40</span>
+                                    </li>
+                                </div>
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Deluxe Pedicure</span>
+                                        -
+                                        <span>$60</span>
+                                    </li>
+                                </div>
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Nail Art</span>
+                                        -
+                                        <span>$15</span>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <a href="./services.html" class="stretched-link"></a>
-            </li>
-            <li class="col-12 col-sm-5 col-md-4 card border-0 p-0 m-1 m-md-0 bg-transparent">
-                <img src="./assets/images/wax_a.png" alt="..." class="card-img-top img-fit" height="230">
-                <div class="card-body">
-                    <div class="card-title fw-bold">Wax Treatments</div>
-                    <p class="card-text">Wax treatments offer smooth, hair-free skin. Our experienced estheticians
-                        use
-                        high-quality products to provide effective and comfortable waxing services for all areas of
-                        the
-                        body.</p>
+            </div>
+            <div class="card mb-5 rounded-0 border-a p-2">
+                <div class="row g-0 align-items-center">
+                    <div class="col-md-5">
+                        <img src=" ./assets/images/wax_a.png" alt="..." class="img-fit" height="400">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="card-body">
+                            <h4 class="card-title">Wax Treatments</h4>
+                            <p class="card-text">Enjoy smooth and hair-free skin with our professional waxing services.
+                                We offer a variety of waxing options to suit your needs, ensuring a comfortable
+                                experience.
+                            </p>
+                            <ul class="list-group list-group-horizontal-lg d-flex flex-wrap">
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Eyebrow Wax</span> -
+                                        <span>$15</span>
+                                    </li>
+                                </div>
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Lip Wax</span> -
+                                        <span>$10</span>
+                                    </li>
+                                </div>
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Full Leg Wax</span>
+                                        -
+                                        <span>$50</span>
+                                    </li>
+                                </div>
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Bikini Wax</span>
+                                        -
+                                        <span>$35</span>
+                                    </li>
+                                </div>
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Underarm Wax</span>
+                                        -
+                                        <span>$20</span>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <a href="./services.html" class="stretched-link"></a>
-            </li>
-            <li class="col-12 col-sm-5 col-md-4 card border-0 p-0 m-1 m-md-0 bg-transparent">
-                <img src="./assets/images/eyelashes_a.png" alt="..." class="card-img-top img-fit" height="230">
-                <div class="card-body">
-                    <div class="card-title fw-bold">Lash Extensions</div>
-                    <p class="card-text">Lash extensions create fuller, longer lashes. Our lash artists meticulously
-                        apply extensions to enhance your natural beauty, giving you a glamorous and effortless look.
-                    </p>
+            </div>
+            <div class="card mb-5 rounded-0 border-a p-2">
+                <div class="row g-0 align-items-center">
+                    <div class="col-md-5">
+                        <img src=" ./assets/images/eyelashes_a.png" alt="..." class="img-fit" height="400">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="card-body">
+                            <h4 class="card-title">Lash Extensions</h4>
+                            <p class="card-text">Enhance your natural beauty with our stunning lash extensions. Our
+                                technicians will help you achieve fuller, longer lashes for a captivating look.
+                            </p>
+                            <ul class="list-group list-group-horizontal-lg d-flex flex-wrap">
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Classic Lashes</span> -
+                                        <span>$100</span>
+                                    </li>
+                                </div>
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Volume Lashes</span> -
+                                        <span>$150</span>
+                                    </li>
+                                </div>
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Hybrid Lashes</span>
+                                        -
+                                        <span>$120</span>
+                                    </li>
+                                </div>
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Lash Refill</span>
+                                        -
+                                        <span>$60</span>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <a href="./services.html" class="stretched-link"></a>
-            </li>
-            <li class="col-12 col-sm-5 col-md-4 card border-0 p-0 m-1 m-md-0 bg-transparent">
-                <img src="./assets/images/eyebrows_a.png" alt="..." class="card-img-top img-fit" height="230">
-                <div class="card-body">
-                    <div class="card-title fw-bold">Eyebrow Treatments</div>
-                    <p class="card-text">Eyebrow treatments define and shape your brows. From tinting to
-                        microblading,
-                        our specialists tailor each service to complement your facial features and enhance your
-                        natural
-                        expression.</p>
+            </div>
+            <div class="card mb-5 rounded-0 border-a p-2">
+                <div class="row g-0 align-items-center">
+                    <div class="col-md-5">
+                        <img src=" ./assets/images/eyebrows_a.png" alt="..." class="img-fit" height="400">
+                    </div>
+                    <div class="col-md-7">
+                        <div class="card-body">
+                            <h4 class="card-title">Eyebrow Treatments</h4>
+                            <p class="card-text">Get perfectly shaped and defined eyebrows with our expert treatments.
+                                From shaping to tinting, we offer services to enhance your natural brows.
+                            </p>
+                            <ul class="list-group list-group-horizontal-lg d-flex flex-wrap">
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Eyebrow Shaping</span> -
+                                        <span>$20</span>
+                                    </li>
+                                </div>
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Eyebrow Tinting</span> -
+                                        <span>$25</span>
+                                    </li>
+                                </div>
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Microblading</span>
+                                        -
+                                        <span>$200</span>
+                                    </li>
+                                </div>
+                                <div class="col-12 col-lg-6 p-1">
+                                    <li class="list-group-item text-nowrap border-a"><span>Brow Lamination</span>
+                                        -
+                                        <span>$80</span>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <a href="./services.html" class="stretched-link"></a>
-            </li>
+            </div>
         </ul>
-    </section>
+    </section> -->
     <section id="products" class="d-flex flex-column justify-content-center align-items-center pb-5">
         <div class="bg-a w-100 text-center">
             <h2 class="fw-bold p-4 m-0 text-c">Products</h2>
